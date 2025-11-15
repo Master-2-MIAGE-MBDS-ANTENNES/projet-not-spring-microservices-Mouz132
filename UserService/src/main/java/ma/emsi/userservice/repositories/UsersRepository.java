@@ -1,10 +1,10 @@
 package ma.emsi.userservice.repositories;
 
 
-import ma.emsi.userservice.entities.User;
+import ma.emsi.userservice.entities.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepositories extends JpaRepository<User,Long> {
+public interface UsersRepository extends JpaRepository<Users,Long> {
 }
