@@ -17,7 +17,7 @@ public class UsersController {
         this.userService = userService;
     }
 
-    @PostMapping("/by-ids")
+    @PostMapping("/users/by-ids")
     public List<UsersResponseDTO> getUsersByIds(@RequestBody List<Long> ids) {
         return userService.getUsersByIds(ids);
     }
